@@ -1,0 +1,12 @@
+{
+  "model_version": "ultra",
+  "last_date": "2025-08-07",
+  "last_close": 24596.150390625,
+  "predicted_date": "2025-08-08",
+  "predicted_close": 23.337398529052734,
+  "predicted_change": -24572.812992095947,
+  "predicted_change_pct": -99.90511767834226,
+  "actual_close": 24363.3,
+  "prediction_error_pct": 99.9042108477544,
+  "model_accuracy": 0.09578915224560092
+}

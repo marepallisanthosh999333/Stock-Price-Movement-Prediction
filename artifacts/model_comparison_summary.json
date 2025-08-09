@@ -1,0 +1,45 @@
+{
+  "comparison_date": "2025-08-09 18:13:40",
+  "actual_market_close": 24363.3,
+  "models": {
+    "original": {
+      "test_mae": 9131.255859375,
+      "test_rmse": 9630.407675690578,
+      "test_mape": 42.87656843662262,
+      "predicted_close": 11562.666015625,
+      "accuracy": 47.459359017969646,
+      "features_count": 4,
+      "lookback_days": 60
+    },
+    "enhanced": {
+      "test_mae": 6787.29931640625,
+      "test_rmse": 7208.890344567602,
+      "test_mape": 29.686248302459717,
+      "predicted_close": 15438.20703125,
+      "accuracy": 63.36664996634282,
+      "features_count": 24,
+      "lookback_days": 120
+    },
+    "ultra": {
+      "test_mae": 22291.001953125,
+      "test_rmse": 22412.078172271307,
+      "test_mape": 99.94041323661804,
+      "predicted_close": 23.337398529052734,
+      "accuracy": 0.09578915224560092,
+      "features_count": 42,
+      "lookback_days": 180
+    },
+    "optimized": {
+      "test_mae": 5726.39306640625,
+      "test_rmse": 6133.72219781757,
+      "test_mape": 25.020965933799744,
+      "predicted_close": 16598.734375,
+      "accuracy": 68.13007423050243,
+      "features_count": 15,
+      "lookback_days": 90
+    }
+  },
+  "best_model": "optimized",
+  "best_accuracy": 68.13007423050243,
+  "total_improvement": 20.67071521253279
+}

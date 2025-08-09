@@ -1,0 +1,30 @@
+{
+  "model_version": "optimized",
+  "train_mae": 2223.017333984375,
+  "train_rmse": 3356.269953385752,
+  "train_mape": 19.985808432102203,
+  "test_mae": 5726.39306640625,
+  "test_rmse": 6133.72219781757,
+  "test_mape": 25.020965933799744,
+  "n_train": 2394,
+  "n_test": 599,
+  "lookback_window": 90,
+  "features": [
+    "Close",
+    "Close_Lag1",
+    "SMA14",
+    "EMA26",
+    "EMA12",
+    "SMA50",
+    "BB_Width",
+    "Hilbert_Amplitude",
+    "MACD",
+    "ATR",
+    "MACD_Signal",
+    "Hurst_Exponent",
+    "RSI14",
+    "Close_Std_10",
+    "Skewness_30"
+  ],
+  "architecture": "Optimized LSTM with smart feature selection"
+}

@@ -1,0 +1,126 @@
+[
+  {
+    "Feature": "Close",
+    "Importance": 0.9084877520279655
+  },
+  {
+    "Feature": "Close_Lag1",
+    "Importance": 0.026479204590928472
+  },
+  {
+    "Feature": "SMA14",
+    "Importance": 0.02634078406421356
+  },
+  {
+    "Feature": "EMA26",
+    "Importance": 0.0202764463971605
+  },
+  {
+    "Feature": "EMA12",
+    "Importance": 0.017390041725054994
+  },
+  {
+    "Feature": "SMA50",
+    "Importance": 0.0009949938644115718
+  },
+  {
+    "Feature": "BB_Width",
+    "Importance": 3.601523595821356e-06
+  },
+  {
+    "Feature": "Hilbert_Amplitude",
+    "Importance": 3.3922588654605893e-06
+  },
+  {
+    "Feature": "MACD",
+    "Importance": 3.308029393762086e-06
+  },
+  {
+    "Feature": "ATR",
+    "Importance": 2.9844750047775406e-06
+  },
+  {
+    "Feature": "MACD_Signal",
+    "Importance": 2.747162793531198e-06
+  },
+  {
+    "Feature": "Hurst_Exponent",
+    "Importance": 2.4483733624216783e-06
+  },
+  {
+    "Feature": "RSI14",
+    "Importance": 1.8470648520479067e-06
+  },
+  {
+    "Feature": "Close_Std_10",
+    "Importance": 1.2241379374897912e-06
+  },
+  {
+    "Feature": "Skewness_30",
+    "Importance": 1.2097845307092531e-06
+  },
+  {
+    "Feature": "ROC_10",
+    "Importance": 9.241738856691867e-07
+  },
+  {
+    "Feature": "ADX",
+    "Importance": 8.012599731552258e-07
+  },
+  {
+    "Feature": "BB_Position",
+    "Importance": 7.000939404445607e-07
+  },
+  {
+    "Feature": "Stoch_D",
+    "Importance": 5.489435904163964e-07
+  },
+  {
+    "Feature": "High_Low_Ratio",
+    "Importance": 5.351983624618058e-07
+  },
+  {
+    "Feature": "Spectral_Centroid",
+    "Importance": 5.074386050019272e-07
+  },
+  {
+    "Feature": "CCI",
+    "Importance": 5.058771174026862e-07
+  },
+  {
+    "Feature": "Volume_Ratio",
+    "Importance": 4.91065386172533e-07
+  },
+  {
+    "Feature": "ROC_5",
+    "Importance": 4.5497651566366384e-07
+  },
+  {
+    "Feature": "Volume_ROC",
+    "Importance": 4.4173956185624875e-07
+  },
+  {
+    "Feature": "Price_Pressure",
+    "Importance": 4.172771942315952e-07
+  },
+  {
+    "Feature": "Bull_Bear_Power",
+    "Importance": 4.0455285532574085e-07
+  },
+  {
+    "Feature": "Williams_R",
+    "Importance": 3.838356926283716e-07
+  },
+  {
+    "Feature": "Close_Open_Ratio",
+    "Importance": 3.330932638310753e-07
+  },
+  {
+    "Feature": "Stoch_K",
+    "Importance": 3.0765785774841925e-07
+  },
+  {
+    "Feature": "Returns_Lag1",
+    "Importance": 2.5733612740842947e-07
+  }
+]

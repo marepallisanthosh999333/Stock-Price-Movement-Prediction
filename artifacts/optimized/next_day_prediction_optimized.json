@@ -1,0 +1,10 @@
+{
+  "model_version": "optimized",
+  "last_close": 24596.150390625,
+  "predicted_close": 16598.734375,
+  "predicted_change": -7997.416015625,
+  "predicted_change_pct": -32.514909400916956,
+  "actual_close": 24363.3,
+  "prediction_error_pct": 31.869925769497563,
+  "model_accuracy": 68.13007423050243
+}
