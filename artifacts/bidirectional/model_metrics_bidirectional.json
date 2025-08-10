@@ -1,0 +1,23 @@
+{
+  "train_metrics": {
+    "model": "Bidirectional LSTM (Train)",
+    "mae": 929.7199096679688,
+    "mse": 2481844.0,
+    "rmse": 1575.3869365968476,
+    "mape": 48.36863708496094,
+    "direction_accuracy": 50.665090156665684,
+    "r2_score": 0.7979565858840942
+  },
+  "test_metrics": {
+    "model": "Bidirectional LSTM (Test)",
+    "mae": 9163.4423828125,
+    "mse": 92821456.0,
+    "rmse": 9634.38923855581,
+    "mape": 42.954532623291016,
+    "direction_accuracy": 50.70921985815603,
+    "r2_score": -8.98300838470459
+  },
+  "model_parameters": 349057,
+  "features_count": 25,
+  "lookback_window": 90
+}

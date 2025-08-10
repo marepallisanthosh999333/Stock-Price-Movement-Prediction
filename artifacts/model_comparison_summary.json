@@ -1,45 +1,51 @@
 {
-  "comparison_date": "2025-08-09 18:13:40",
-  "actual_market_close": 24363.3,
-  "models": {
-    "original": {
-      "test_mae": 9131.255859375,
-      "test_rmse": 9630.407675690578,
-      "test_mape": 42.87656843662262,
-      "predicted_close": 11562.666015625,
-      "accuracy": 47.459359017969646,
-      "features_count": 4,
-      "lookback_days": 60
+  "analysis_date": "2025-08-10",
+  "total_models": 6,
+  "best_model": "Optimized",
+  "best_accuracy": 99.13481140136719,
+  "performance_rating": "EXCELLENT! \ud83c\udf1f",
+  "all_results": {
+    "Original": {
+      "accuracy": 1.0198287963867188,
+      "mae": 11288.1005859375,
+      "mape": 51.6942024230957,
+      "rmse": 13022.522643481945
     },
-    "enhanced": {
-      "test_mae": 6787.29931640625,
-      "test_rmse": 7208.890344567602,
-      "test_mape": 29.686248302459717,
-      "predicted_close": 15438.20703125,
-      "accuracy": 63.36664996634282,
-      "features_count": 24,
-      "lookback_days": 120
+    "Enhanced": {
+      "accuracy": 73.78172302246094,
+      "mae": 4446.0927734375,
+      "mape": 19.159534454345703,
+      "rmse": 4943.012846432831
     },
-    "ultra": {
-      "test_mae": 22291.001953125,
-      "test_rmse": 22412.078172271307,
-      "test_mape": 99.94041323661804,
-      "predicted_close": 23.337398529052734,
-      "accuracy": 0.09578915224560092,
-      "features_count": 42,
-      "lookback_days": 180
+    "Optimized": {
+      "accuracy": 99.13481140136719,
+      "mae": 22.0625,
+      "mape": 0.08969899266958237,
+      "rmse": 22.062500691616492
     },
-    "optimized": {
-      "test_mae": 5726.39306640625,
-      "test_rmse": 6133.72219781757,
-      "test_mape": 25.020965933799744,
-      "predicted_close": 16598.734375,
-      "accuracy": 68.13007423050243,
-      "features_count": 15,
-      "lookback_days": 90
+    "Ultra": {
+      "accuracy": 0.1149139404296875,
+      "mae": 20770.65234375,
+      "mape": 99.8284912109375,
+      "rmse": 20990.46716964632
+    },
+    "Bidirectional": {
+      "accuracy": 50.70921985815603,
+      "mae": 9163.4423828125,
+      "mape": 42.954532623291016,
+      "rmse": 9634.38923855581
+    },
+    "Gru_Attention": {
+      "accuracy": 48.46335697399527,
+      "mae": 9029.8359375,
+      "mape": 42.2958984375,
+      "rmse": 9601.459055789386
     }
   },
-  "best_model": "optimized",
-  "best_accuracy": 68.13007423050243,
-  "total_improvement": 20.67071521253279
+  "key_insights": {
+    "best_mae_model": "Optimized",
+    "best_mape_model": "Optimized",
+    "worst_model": "Ultra",
+    "improvement_from_baseline": 98.11498260498047
+  }
 }

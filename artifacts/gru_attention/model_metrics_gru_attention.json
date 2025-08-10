@@ -1,0 +1,23 @@
+{
+  "train_metrics": {
+    "model": "GRU Attention (Train)",
+    "mae": 662.6121215820312,
+    "mse": 1973362.875,
+    "rmse": 1404.7643485652675,
+    "mape": 49.78319549560547,
+    "direction_accuracy": 51.64055571977535,
+    "r2_score": 0.8393512964248657
+  },
+  "test_metrics": {
+    "model": "GRU Attention (Test)",
+    "mae": 9029.8359375,
+    "mse": 92188016.0,
+    "rmse": 9601.459055789386,
+    "mape": 42.2958984375,
+    "direction_accuracy": 48.46335697399527,
+    "r2_score": -8.914881706237793
+  },
+  "model_parameters": 329025,
+  "features_count": 25,
+  "lookback_window": 90
+}

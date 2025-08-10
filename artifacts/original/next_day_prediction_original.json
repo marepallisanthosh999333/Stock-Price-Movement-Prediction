@@ -3,10 +3,10 @@
   "last_date": "2025-08-07",
   "last_close": 24596.150390625,
   "predicted_date": "2025-08-08",
-  "predicted_close": 11562.666015625,
-  "predicted_change": -13033.484375,
-  "predicted_change_pct": -52.989936099788224,
+  "predicted_close": 248.46438598632812,
+  "predicted_change": -24347.686004638672,
+  "predicted_change_pct": -98.98982409019165,
   "actual_close": 24363.3,
-  "prediction_error_pct": 52.540640982030354,
-  "model_accuracy": 47.459359017969646
+  "prediction_error_pct": 98.98017120361328,
+  "model_accuracy": 1.0198287963867188
 }
