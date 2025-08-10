@@ -60,9 +60,6 @@ d:\LSTM\
 - Feature importance analysis
 - Comprehensive model comparison
 
-## 🚀 GitHub Repository Target
-**Target Repository**: `https://github.com/marepallisanthosh999333/Stock-Price-Movement-Prediction.git`
-
 ## ✅ Pre-Deployment Checklist
 
 ### Data & Code
@@ -99,16 +96,3 @@ The repository is now **completely ready** for GitHub deployment with:
 - ✅ Complete model pipeline
 - ✅ All outputs preserved
 - ✅ Clean, organized structure
-
-### Next Steps
-1. Navigate to repository directory: `cd d:\LSTM`
-2. Initialize git repository: `git init`
-3. Add remote: `git remote add origin https://github.com/marepallisanthosh999333/Stock-Price-Movement-Prediction.git`
-4. Stage all files: `git add .`
-5. Commit: `git commit -m "Complete LSTM forecasting pipeline with real NIFTY50 data"`
-6. Push: `git push -u origin main`
-
----
-**Generated on**: $(Get-Date)
-**Repository**: Ready for public deployment
-**Status**: ✅ COMPLETE
