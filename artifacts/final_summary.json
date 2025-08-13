@@ -1,0 +1,111 @@
+{
+  "analysis_overview": {
+    "title": "NIFTY50 LSTM Financial Forecasting Analysis",
+    "completion_date": "2025-08-13T19:26:39.544680",
+    "data_period": "2013-01-21 to 2025-08-11",
+    "total_trading_days": 3086,
+    "prediction_target": "2025-08-14",
+    "models_evaluated": 3
+  },
+  "dataset_characteristics": {
+    "total_features": 32,
+    "sequence_length": 60,
+    "training_samples": 2420,
+    "testing_samples": 606,
+    "class_distribution": {
+      "up_days": 334.0,
+      "down_days": 272.0,
+      "up_percentage": 55.115511551155116
+    }
+  },
+  "model_performance": {
+    "original": {
+      "accuracy": 0.5495049504950495,
+      "accuracy_percentage": 54.95049504950495,
+      "improvement_over_random": 4.950495049504955,
+      "epochs_trained": 16,
+      "training_time_minutes": 0.45575526666666666
+    },
+    "enhanced": {
+      "accuracy": 0.5759075907590759,
+      "accuracy_percentage": 57.59075907590759,
+      "improvement_over_random": 7.590759075907593,
+      "epochs_trained": 18,
+      "training_time_minutes": 1.5799956333333334
+    },
+    "optimized": {
+      "accuracy": 0.523102310231023,
+      "accuracy_percentage": 52.310231023102304,
+      "improvement_over_random": 2.310231023102305,
+      "epochs_trained": 20,
+      "training_time_minutes": 1.9870059666666668
+    }
+  },
+  "best_model": {
+    "name": "enhanced",
+    "accuracy": 0.5759075907590759,
+    "accuracy_percentage": 57.59075907590759
+  },
+  "next_day_predictions": {
+    "prediction_date": "2025-08-14",
+    "generated_on": "2025-08-13T19:26:00.379465",
+    "current_price": 24585.05078125,
+    "individual_predictions": {
+      "original": {
+        "model_name": "original",
+        "prediction_date": "2025-08-14",
+        "current_date": "2025-08-11",
+        "current_price": 24585.05078125,
+        "prediction_probability": 0.4513360559940338,
+        "predicted_direction": "DOWN",
+        "confidence": "LOW"
+      },
+      "enhanced": {
+        "model_name": "enhanced",
+        "prediction_date": "2025-08-14",
+        "current_date": "2025-08-11",
+        "current_price": 24585.05078125,
+        "prediction_probability": 0.5367552042007446,
+        "predicted_direction": "UP",
+        "confidence": "LOW"
+      },
+      "optimized": {
+        "model_name": "optimized",
+        "prediction_date": "2025-08-14",
+        "current_date": "2025-08-11",
+        "current_price": 24585.05078125,
+        "prediction_probability": 0.5201386213302612,
+        "predicted_direction": "UP",
+        "confidence": "LOW"
+      }
+    },
+    "ensemble_prediction": {
+      "direction": "UP",
+      "up_votes": 2,
+      "down_votes": 1,
+      "consensus_strength": 0.6666666666666666
+    }
+  },
+  "key_insights": [
+    "All models achieved realistic accuracy levels (50-60%), consistent with academic literature on financial prediction",
+    "Best model (enhanced) achieved 57.59% accuracy, only 7.59 percentage points better than random",
+    "Models show UP consensus for 2025-08-14 with 67% agreement",
+    "Performance levels demonstrate the inherent difficulty of financial market prediction",
+    "Results are suitable for educational purposes but not for actual trading decisions"
+  ],
+  "limitations_and_warnings": [
+    "Financial markets are largely unpredictable and efficient",
+    "Past performance does not guarantee future results",
+    "Transaction costs would likely eliminate any edge from these models",
+    "Models should not be used for actual trading or investment decisions",
+    "Results are for educational and research purposes only"
+  ],
+  "technical_notes": {
+    "tensorflow_version": "2.19.0",
+    "lookback_window": 60,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "early_stopping_patience": 15,
+    "random_seed": 42
+  }
+}

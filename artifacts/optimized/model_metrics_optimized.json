@@ -1,30 +1,8 @@
 {
-  "model_version": "optimized",
-  "train_mae": 498.98724365234375,
-  "train_rmse": 870.4371746427194,
-  "train_mape": 6.290868759155273,
-  "test_mae": 22.0625,
-  "test_rmse": 22.062500691616492,
-  "test_mape": 0.08969899266958237,
-  "n_train": 10397,
-  "n_test": 2600,
-  "lookback_window": 90,
-  "features": [
-    "Close",
-    "Close_Lag1",
-    "EMA12",
-    "EMA26",
-    "SMA50",
-    "SMA14",
-    "ATR",
-    "BB_Width",
-    "MACD",
-    "MACD_Signal",
-    "Skewness_30",
-    "RSI14",
-    "Hurst_Exponent",
-    "Close_Std_10",
-    "Stoch_D"
-  ],
-  "architecture": "Optimized LSTM with smart feature selection"
+  "accuracy": 0.523102310231023,
+  "final_val_loss": 0.6995042562484741,
+  "final_val_accuracy": 0.44884487986564636,
+  "best_val_accuracy": 0.5313531160354614,
+  "epochs_trained": 20,
+  "training_duration_seconds": 119.220358
 }

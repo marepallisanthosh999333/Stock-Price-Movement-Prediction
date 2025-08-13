@@ -1,51 +1,38 @@
 {
-  "analysis_date": "2025-08-10",
-  "total_models": 6,
-  "best_model": "Optimized",
-  "best_accuracy": 99.13481140136719,
-  "performance_rating": "EXCELLENT! \ud83c\udf1f",
-  "all_results": {
-    "Original": {
-      "accuracy": 1.0198287963867188,
-      "mae": 11288.1005859375,
-      "mape": 51.6942024230957,
-      "rmse": 13022.522643481945
+  "comparison_table": [
+    {
+      "Model": "Original",
+      "Test Accuracy": "0.5495",
+      "Test Accuracy (%)": "54.95%",
+      "Best Val Accuracy": "0.5495",
+      "Final Val Loss": "0.7278",
+      "Epochs Trained": 16,
+      "Training Duration (min)": "0.5"
     },
-    "Enhanced": {
-      "accuracy": 73.78172302246094,
-      "mae": 4446.0927734375,
-      "mape": 19.159534454345703,
-      "rmse": 4943.012846432831
+    {
+      "Model": "Enhanced",
+      "Test Accuracy": "0.5759",
+      "Test Accuracy (%)": "57.59%",
+      "Best Val Accuracy": "0.5759",
+      "Final Val Loss": "0.6984",
+      "Epochs Trained": 18,
+      "Training Duration (min)": "1.6"
     },
-    "Optimized": {
-      "accuracy": 99.13481140136719,
-      "mae": 22.0625,
-      "mape": 0.08969899266958237,
-      "rmse": 22.062500691616492
-    },
-    "Ultra": {
-      "accuracy": 0.1149139404296875,
-      "mae": 20770.65234375,
-      "mape": 99.8284912109375,
-      "rmse": 20990.46716964632
-    },
-    "Bidirectional": {
-      "accuracy": 50.70921985815603,
-      "mae": 9163.4423828125,
-      "mape": 42.954532623291016,
-      "rmse": 9634.38923855581
-    },
-    "Gru_Attention": {
-      "accuracy": 48.46335697399527,
-      "mae": 9029.8359375,
-      "mape": 42.2958984375,
-      "rmse": 9601.459055789386
+    {
+      "Model": "Optimized",
+      "Test Accuracy": "0.5231",
+      "Test Accuracy (%)": "52.31%",
+      "Best Val Accuracy": "0.5314",
+      "Final Val Loss": "0.6995",
+      "Epochs Trained": 20,
+      "Training Duration (min)": "2.0"
     }
-  },
-  "key_insights": {
-    "best_mae_model": "Optimized",
-    "best_mape_model": "Optimized",
-    "worst_model": "Ultra",
-    "improvement_from_baseline": 98.11498260498047
-  }
+  ],
+  "best_model": "enhanced",
+  "best_accuracy": 0.5759075907590759,
+  "analysis_date": "2025-08-13T19:25:16.057827",
+  "data_period": "2013-01-21 to 2025-08-11",
+  "total_samples": 3086,
+  "training_samples": 2420,
+  "testing_samples": 606
 }

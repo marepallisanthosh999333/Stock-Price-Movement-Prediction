@@ -1,19 +1,8 @@
 {
-  "model_version": "original",
-  "train_mae": 518.780517578125,
-  "train_rmse": 1403.275409532997,
-  "train_mape": 4.0927019119262695,
-  "test_mae": 11288.1005859375,
-  "test_rmse": 13022.522643481945,
-  "test_mape": 51.6942024230957,
-  "n_train": 3424,
-  "n_test": 856,
-  "lookback_window": 60,
-  "features": [
-    "Close",
-    "SMA14",
-    "SMA50",
-    "RSI14"
-  ],
-  "architecture": "Basic LSTM with 2 layers"
+  "accuracy": 0.5495049504950495,
+  "final_val_loss": 0.7277981638908386,
+  "final_val_accuracy": 0.5016501545906067,
+  "best_val_accuracy": 0.5495049357414246,
+  "epochs_trained": 16,
+  "training_duration_seconds": 27.345316
 }

@@ -1,0 +1,40 @@
+{
+  "prediction_date": "2025-08-14",
+  "generated_on": "2025-08-13T19:26:00.379465",
+  "current_price": 24585.05078125,
+  "individual_predictions": {
+    "original": {
+      "model_name": "original",
+      "prediction_date": "2025-08-14",
+      "current_date": "2025-08-11",
+      "current_price": 24585.05078125,
+      "prediction_probability": 0.4513360559940338,
+      "predicted_direction": "DOWN",
+      "confidence": "LOW"
+    },
+    "enhanced": {
+      "model_name": "enhanced",
+      "prediction_date": "2025-08-14",
+      "current_date": "2025-08-11",
+      "current_price": 24585.05078125,
+      "prediction_probability": 0.5367552042007446,
+      "predicted_direction": "UP",
+      "confidence": "LOW"
+    },
+    "optimized": {
+      "model_name": "optimized",
+      "prediction_date": "2025-08-14",
+      "current_date": "2025-08-11",
+      "current_price": 24585.05078125,
+      "prediction_probability": 0.5201386213302612,
+      "predicted_direction": "UP",
+      "confidence": "LOW"
+    }
+  },
+  "ensemble_prediction": {
+    "direction": "UP",
+    "up_votes": 2,
+    "down_votes": 1,
+    "consensus_strength": 0.6666666666666666
+  }
+}
